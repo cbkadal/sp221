@@ -4,7 +4,7 @@
 
 ## By {{ site.author }}
 <br>
-[HOME](/) ---
+[HOME]({{ site.baseurl }}/) ---
 [LOG]({{ site.myloglink }}) ---
 [GITHUB]({{ site.githublink }})
 <br>
