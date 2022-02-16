@@ -1,6 +1,8 @@
 #!/bin/bash
 # Copyright (C) 2020-2022 Cicak Bin Kadal
 
+WEEK="01"
+
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -16,7 +18,6 @@
 # You new to set "REC2" with your own Public-Key Identity!
 # Check it out with "gpg --list-key"
 
-WEEK="00"
 REC2="60914D29C01C81F1"
 REC1="63FB12B215403B20"
 FILES="my*.asc my*.txt my*.sh"
@@ -57,6 +58,12 @@ gpg --output $SHA.asc --armor --sign --detach-sign $SHA
 
 echo "gpg --verify $SHA.asc $SHA"
 gpg --verify $SHA.asc $SHA
+
+echo ""
+echo "==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ===="
+echo "==== ==== ==== ATTN: is this WEEK $WEEK ?? ==== ==== ==== ===="
+echo "==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ===="
+echo ""
 
 exit 0
 
