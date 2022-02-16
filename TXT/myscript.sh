@@ -16,7 +16,7 @@
 # You new to set "REC2" with your own Public-Key Identity!
 # Check it out with "gpg --list-key"
 
-WEEK="01"
+WEEK="00"
 REC2="60914D29C01C81F1"
 REC1="63FB12B215403B20"
 FILES="my*.asc my*.txt my*.sh"
@@ -37,9 +37,11 @@ for II in W?? ; do
 done
 popd
 
-II="${RESDIR}myW$WEEK.tar.bz2.asc"
-echo "Check and move $II..."
-[ -f $II ] && mv -vf $II .
+if [[ "$WEEK" != "00" ]] ; then
+    II="${RESDIR}myW$WEEK.tar.bz2.asc"
+    echo "Check and move $II..."
+    [ -f $II ] && mv -vf $II .
+fi
 
 echo "rm -f $SHA $SHA.asc"
 rm -f $SHA $SHA.asc
