@@ -1,18 +1,18 @@
 #!/bin/bash
 # Copyright (C) 2020-2022 Cicak Bin Kadal
 
-WEEK="06"
+WEEK="07"
 
 # This free document is distributed in the hope that it will be 
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-# REV09 Mon 11 Apr 2022 22:16:29 WIB
-# REV08 Sun 13 Mar 2022 23:16:47 WIB
-# REV06 Mon 21 Feb 2022 17:14:09 WIB
-# REV04 Sat 20 Nov 2021 19:10:06 WIB
-# REV02 Sun 19 Sep 2021 15:44:11 WIB
-# START Mon 28 Sep 2020 21:05:04 WIB
+# REV10: Wed 20 Apr 2022 20:30:00 WIB
+# REV08: Sun 13 Mar 2022 23:16:47 WIB
+# REV06: Mon 21 Feb 2022 17:14:09 WIB
+# REV04: Sat 20 Nov 2021 19:10:06 WIB
+# REV02: Sun 19 Sep 2021 15:44:11 WIB
+# START: Mon 28 Sep 2020 21:05:04 WIB
 
 # ATTN:
 # You new to set "REC2" with your own Public-Key Identity!
